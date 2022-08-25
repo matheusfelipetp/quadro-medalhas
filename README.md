@@ -1,5 +1,5 @@
 # 🥇 Quadro de Medalhas
-Este projeto tem como objetivo listar os 15 melhores países no ranking de medalhas das Olímpiadas. Foi utilizado a API Kenzie Olympics para fazer as requisições necessárias. O usuário pode buscar um país pelo nome no campo de busca, além de selecionar o tipo de filtro: quantidade de medalhas de ouro, prata, bronze ou total.
+Este projeto tem como objetivo listar os 15 melhores países no ranking de medalhas das Olímpiadas. Foi utilizado a API Kenzie Olympics para fazer as requisições necessárias. O usuário pode buscar um país pelo nome no campo de busca, além de selecionar o tipo de filtro: quantidade de medalhas de ouro, prata, bronze ou total. O projeto também está responsivo para todas as telas.
 
 ## 💻 Tecnologia
 - HTML5
