@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <script defer type="module" src="./src/js/script.js"></script>
+  <title>Quadro de Medalhas</title>
+</head>
+
+<body>
+  <header class="header">
+    <img src="./src/img/logo.svg" alt="Logo Olímpiadas">
+  </header>
+
+  <section class="search">
+    <form class="search__form container">
+      <div class="form__input">
+        <figure>
+          <img src="./src/img/search.svg" alt="Lupa de pesquisa">
+        </figure>
+        <input type="text" id="search-input" name="search-input" placeholder="Pesquisar por país">
+      </div>
+      <button class="search__btn">Pesquisar</button>
+    </form>
+  </section>
+
+  <main class="main">
+    <div class="table__header container">
+      <div class="table__header-options">
+        <button id="position" class="btn-table">
+          <p>Posição</p>
+          <img src="./src/img/arrow.svg" alt="Seta">
+        </button>
+      </div>
+      <div class="table__header-country">
+        <h3>País</h3>
+      </div>
+      <div class="table__header-options mobile-select">
+        <select>
+          <option value="gold">Ouro</option>
+          <option value="silver">Prata</option>
+          <option value="bronze">Bronze</option>
+          <option value="total">Total</option>
+        </select>
+      </div>
+      <div class="table__header-options">
+        <button id="gold" class="btn-table">
+          <p>Ouro</p>
+          <img src="./src/img/arrow.svg" alt="Seta">
+        </button>
+      </div>
+      <div class="table__header-options">
+        <button id="silver" class="btn-table">
+          <p>Prata</p>
+          <img src="./src/img/arrow.svg" alt="Seta">
+        </button>
+      </div>
+      <div class="table__header-options">
+        <button id="bronze" class="btn-table">
+          <p>Bronze</p>
+          <img src="./src/img/arrow.svg" alt="Seta">
+        </button>
+      </div>
+      <div class="table__header-options">
+        <button id="total" class="btn-table">
+          <p>Total</p>
+          <img src="./src/img/arrow.svg" alt="Seta">
+        </button>
+      </div>
+    </div>
+
+    <ul class="table__list container"></ul>
+  </main>
+</body>
+
+</html>
